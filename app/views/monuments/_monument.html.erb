@@ -1,0 +1,18 @@
+<div id="<%= dom_id monument %>">
+  <p>
+    <strong>Name:</strong>
+    <%= monument.name %>
+  </p>
+
+  <p>
+    <strong>Address:</strong>
+    <span data-controller="typed" data-typed-sentences-value="<%= [monument.address] %>"></span>
+  
+  </p>
+
+  <p>
+    <strong>Opening date:</strong>
+    <%= monument.opening_date %>
+  </p>
+
+</div>
